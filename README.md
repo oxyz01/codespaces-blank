@@ -5,8 +5,14 @@ Automated unattended installation of Kali Linux on WSL 2 for Windows.
 ## Quick Start
 
 ### One-liner (Run as Administrator in PowerShell):
+Replace `YOUR_USERNAME` with your GitHub username:
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_USERNAME/wsl-kali-installer/main/kali-install-minimal.ps1 | iex
+irm https://raw.githubusercontent.com/YOUR_USERNAME/codespaces-blank/main/kali-install-minimal.ps1 | iex
+```
+
+**Or for the full-featured installer:**
+```powershell
+irm https://raw.githubusercontent.com/YOUR_USERNAME/codespaces-blank/main/kali-wsl2-install.ps1 | iex
 ```
 
 ### Or run locally:
