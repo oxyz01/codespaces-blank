@@ -1,0 +1,26 @@
+# Logs
+*.log
+kali-install-*.log
+/logs/
+
+# Temporary files
+*.tmp
+*.temp
+$RECYCLE.BIN/
+
+# WSL specific
+.wslconfig
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# PowerShell
+*.ps1xml
