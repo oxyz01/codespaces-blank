@@ -13,7 +13,7 @@
 ### One-liner Installation (Run as Administrator in PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/oxyz01/codespaces-blank/main/install-kali.ps1 | iex
+irm https://raw.githubusercontent.com/oxyz01/kali-wsl-installer/main/install-kali.ps1 | iex
 ```
 
 ### Local Installation
@@ -74,7 +74,7 @@ $params = @{
     InstallTools     = $false
     EnableSSH        = $false
 }
-irm https://raw.githubusercontent.com/oxyz01/codespaces-blank/main/install-kali.ps1 | iex
+irm https://raw.githubusercontent.com/oxyz01/kali-wsl-installer/main/install-kali.ps1 | iex
 
 # Full installation with custom distribution name
 $params = @{
